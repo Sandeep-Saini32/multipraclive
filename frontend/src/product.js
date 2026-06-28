@@ -17,7 +17,7 @@ const proadd=async(e)=>{
  prodata.append("prodetail",prodetail)    
  prodata.append("propic",propic)    
 
-const result=await fetch("http://localhost:9000/api/addproduct",{
+const result=await fetch("https://multipraclive-1.onrender.com/api/addproduct",{
 method:"post",
 body:prodata
 
@@ -49,7 +49,7 @@ useEffect(()=>{
 
 const getproduct=async()=>{
 
-    const saveprodata=await fetch("http://localhost:9000/api/getproduct",{
+    const saveprodata=await fetch("https://multipraclive-1.onrender.com/api/getproduct",{
 method:"Get"
 
     })

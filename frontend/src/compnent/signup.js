@@ -17,7 +17,7 @@ const navigate=useNavigate()
 
 const data={name,email,pass,cfpass}
 
-const show=await fetch("http://localhost:9000/api/signup",{
+const show=await fetch("https://multipraclive-1.onrender.com/api/signup",{
 
     method:"post",
     body:JSON.stringify(data),

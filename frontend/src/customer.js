@@ -11,7 +11,7 @@ customdata()
 
 const customdata=async()=>{
 
-const savecustom=await fetch("http://localhost:9000/api/getcustomer",{
+const savecustom=await fetch("https://multipraclive-1.onrender.com/api/getcustomer",{
 method:"Get"
 
 })
