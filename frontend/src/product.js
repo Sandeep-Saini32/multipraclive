@@ -103,6 +103,7 @@ key={index}>
     <img 
  src={`${item.propic}`}
     width={"100px"}
+    alt="product"
 
     />
   
